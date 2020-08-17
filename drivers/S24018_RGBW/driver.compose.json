@@ -1,0 +1,80 @@
+{
+  "id": "S24018_RGBW",
+  "name": {
+    "en": "S24018_RGBW"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "light_hue",
+    "light_saturation",
+    "light_temperature",
+    "light_mode"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_hue": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_saturation": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_temperature": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": false
+    }
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "The Light Group AS",
+      "THE LIGHT GROUP AS",
+      "the light group as"
+    ],
+    "productId": [
+      "RGBW Lighting"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          768,
+          2821,
+          4096
+        ],
+        "bindings": [
+          25
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/S24018_RGBW/assets/learnmode.svg",
+      "instruction": {
+        "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/S24018_RGBW/assets/images/large.png",
+    "small": "/drivers/S24018_RGBW/assets/images/small.png"
+  },
+  "settings": [
+  ]
+}
