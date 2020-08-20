@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#202123",
@@ -2644,7 +2644,7 @@
     {
       "id": "S24018_CCT",
       "name": {
-        "en": "S24018_CCT"
+        "en": "S24018/21 CCT"
       },
       "class": "light",
       "capabilities": [
@@ -2711,7 +2711,7 @@
     {
       "id": "S24018_DIM",
       "name": {
-        "en": "S24018_DIM"
+        "en": "S24018/21 DIM"
       },
       "class": "light",
       "capabilities": [
@@ -2771,7 +2771,7 @@
     {
       "id": "S24018_RGBCCT",
       "name": {
-        "en": "S24018_RGBCCT"
+        "en": "S24018/21 RGBCCT"
       },
       "class": "light",
       "capabilities": [
@@ -2851,7 +2851,7 @@
     {
       "id": "S24018_RGBW",
       "name": {
-        "en": "S24018_RGBW"
+        "en": "S24018/21 RGBW"
       },
       "class": "light",
       "capabilities": [
