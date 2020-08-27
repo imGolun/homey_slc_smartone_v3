@@ -13,5 +13,8 @@
   },
   "2.0.3": {
     "en": "Corrected the pictures of some devices and updated the names of some devices."
+  },
+  "2.0.4": {
+    "en": "1) Support Homey V5.0. 2) Added support for the following devices: S24021, S32053, S32054, S32055, S32056, S57003, S57007, S57018."
   }
 }
