@@ -2,15 +2,20 @@
 
 const { CLUSTER, Cluster } = require('zigbee-clusters')
 
+const SrSceneCluster = require('../../lib/SrSceneCluster')
+const SrSceneBoundCluster = require('../../lib/SrSceneBoundCluster')
+
+const SrColorControlCluster = require('../../lib/SrColorControlCluster')
+
 const OnOffBoundCluster = require('../../lib/OnOffBoundCluster')
 const LevelControlBoundCluster = require('../../lib/LevelControlBoundCluster')
 const ColorControlBoundCluster = require('../../lib/ColorControlBoundCluster')
 
 const ZigBeeRemoteControl = require('../../lib/ZigBeeRemoteControl')
-const SrColorControlCluster = require('../../lib/SrColorControlCluster')
 
 const SrUtils = require('../../lib/SrUtils')
 
+Cluster.addCluster(SrSceneCluster)
 Cluster.addCluster(SrColorControlCluster)
 
 class RemoteControl extends ZigBeeRemoteControl {
@@ -24,8 +29,8 @@ class RemoteControl extends ZigBeeRemoteControl {
 
       this.zclNode.endpoints[endpoint].bind(CLUSTER.ON_OFF.NAME,
         new OnOffBoundCluster({
-          onSetOff: this._onOffCommandHandler.bind(this, 'ZGRC_KEY_005_off'),
-          onSetOn: this._onOffCommandHandler.bind(this, 'ZGRC_KEY_005_on'),
+          onSetOff: this._onOffCommandHandler.bind(this, 'ZG2819S_RGBW_off'),
+          onSetOn: this._onOffCommandHandler.bind(this, 'ZG2819S_RGBW_on'),
           endpoint: endpoint,
         }))
 
@@ -37,16 +42,22 @@ class RemoteControl extends ZigBeeRemoteControl {
           endpoint: endpoint,
         }))
 
-      this.zclNode.endpoints[endpoint].bind(CLUSTER.COLOR_CONTROL.NAME,
+      this.zclNode.endpoints[endpoint].bind(SrColorControlCluster.NAME,
         new ColorControlBoundCluster({
-            onMoveToColor: this._onMoveToColor.bind(this),
-            onMoveToColorTemperature: this._onMoveToColorTemperature.bind(this),
-            onMoveHue: this._onMoveHue.bind(this),
-            onMoveColorTemperature: this._onMoveColorTemperature.bind(this),
-            onStopMoveStep: this._onStopMoveStep.bind(this),
-            endpoint: endpoint,
-          },
-        ))
+          onMoveToColorTemperature: this._onMoveToColorTemperature.bind(this),
+          onMoveHue: this._onMoveHue.bind(this),
+          onMoveToColor: this._onMoveToColor.bind(this),
+          onStopMoveStep: this._onStopMoveStep.bind(this),
+          onMoveColorTemperature: this._onMoveColorTemperature.bind(this),
+          endpoint: endpoint,
+        }))
+
+      this.zclNode.endpoints[endpoint].bind(SrSceneCluster.NAME,
+        new SrSceneBoundCluster({
+          onSrStoreScene: this._onStoreScene.bind(this),
+          onSrRecallScene: this._onRecallScene.bind(this),
+          endpoint: endpoint,
+        }))
 
     })
   }
@@ -61,6 +72,47 @@ class RemoteControl extends ZigBeeRemoteControl {
     this.driver.getDeviceTriggerCard(type).trigger(this, tokens, state)
   }
 
+  _onMoveToColor ({ colorX, colorY, transitionTime }, endpoint) {
+
+    this.log(
+      `_onMoveToColor ${colorX}, ${colorY}, ${transitionTime}, ${endpoint}`)
+
+    const tokens = {
+      'color_x': SrUtils.getColorXYToken(colorX),
+      'color_y': SrUtils.getColorXYToken(colorY),
+      'transition_time': Math.floor(transitionTime / 10),
+    }
+    const state = { 'group': endpoint }
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_move_to_color').
+      trigger(this, tokens, state)
+  }
+
+  _onRecallScene ({ groupId, sceneId }, endpoint) {
+
+    this.log(`_onRecallScene ${groupId} ${sceneId}, ${endpoint}`)
+
+    const tokens = {
+      'group_id': groupId,
+      'scene_id': sceneId,
+    }
+    const state = { 'group': endpoint }
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_recall_scene').
+      trigger(this, tokens, state)
+  }
+
+  _onStoreScene ({ groupId, sceneId }, endpoint) {
+
+    this.log(`_onStoreScene ${groupId} ${sceneId}, ${endpoint}`)
+
+    const tokens = {
+      'group_id': groupId,
+      'scene_id': sceneId,
+    }
+    const state = { 'group': endpoint }
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_store_scene').
+      trigger(this, tokens, state)
+  }
+
   _onLevelStepWithOnOff ({ mode, stepSize, transitionTime }, endpoint) {
 
     const tokens = {
@@ -71,7 +123,7 @@ class RemoteControl extends ZigBeeRemoteControl {
     this.log(
       `_onLevelStepWithOnOff ${mode} ${stepSize} ${transitionTime}, ${endpoint}`)
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_level_step_with_onoff').
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_level_step_with_onoff').
       trigger(this, tokens, state)
   }
 
@@ -85,7 +137,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'rate': SrUtils.getMoveLevelRateToken(rate),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_level_move_with_onoff').
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_level_move_with_onoff').
       trigger(this, tokens, state)
   }
 
@@ -96,59 +148,48 @@ class RemoteControl extends ZigBeeRemoteControl {
 
     const tokens = {}
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_level_stop_with_onoff').
-      trigger(this, tokens, state)
-  }
-
-  _onMoveToColor ({ colorX, colorY, transitionTime }, endpoint) {
-
-    this.log(
-      `_onMoveToColor ${colorX}, ${colorY}, ${transitionTime}, ${endpoint}`)
-
-    const tokens = {
-      'color_x': SrUtils.getColorXYToken(colorX),
-      'color_y': SrUtils.getColorXYToken(colorY),
-      'transition_time': Math.floor(transitionTime / 10),
-    }
-    const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_to_color').
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_level_stop_with_onoff').
       trigger(this, tokens, state)
   }
 
   _onMoveToColorTemperature ({ colorTemperature, transitionTime }, endpoint) {
 
     this.log(
-      `_onMoveToColorTemperature, ${colorTemperature}, ${transitionTime}, ${endpoint}`)
+      `_onMoveToColorTemperature ${colorTemperature} ${transitionTime}, ${endpoint}`)
 
     const tokens = {
       'color_temperature': SrUtils.getColorTemperatureToken(colorTemperature),
       'transition_time': Math.floor(transitionTime / 10),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_to_color_temperature').
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_move_to_color_temperature').
       trigger(this, tokens, state)
   }
 
-  _onMoveColorTemperature ({ moveMode, rate }, endpoint) {
+  _onMoveColorTemperature (
+    { moveMode, rate, colorTemperatureMinimumMireds, colorTemperatureMaximumMireds },
+    endpoint) {
 
-    this.log(`_onMoveColorTemperature ${moveMode} ${rate}, ${endpoint}`)
+    this.log(
+      `_onMoveColorTemperature ${moveMode} ${rate} ${colorTemperatureMinimumMireds} ${colorTemperatureMaximumMireds}, ${endpoint}`)
 
     const tokens = {
-      'move_mode': SrUtils.getMoveSaturationMoveModeToken(moveMode),
-      'rate': SrUtils.getMoveSaturationRateToken(rate),
+      'move_mode': SrUtils.getMoveColorTemperatureMoveModeToken(moveMode),
+      'rate': SrUtils.getMoveColorTemperatureRateToken(rate),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_color_temperature').
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_move_color_temperature').
       trigger(this, tokens, state)
   }
 
   _onStopMoveStep (endpoint) {
 
-    this.log(`_onStopMoveStep, ${endpoint}`)
+    this.log(
+      `_onStopMoveStep, ${endpoint}`)
 
     const tokens = {}
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_stop_move_step').
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_stop_move_step').
       trigger(this, tokens, state)
   }
 
@@ -163,7 +204,7 @@ class RemoteControl extends ZigBeeRemoteControl {
     const state = {
       'group': endpoint,
     }
-    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_hue').trigger(
+    this.driver.getDeviceTriggerCard('ZG2819S_RGBW_move_hue').trigger(
       this, tokens, state,
     )
   }
@@ -174,14 +215,14 @@ module.exports = RemoteControl
 
 /**
 
- 1 Groups
+ 4 Groups
 
  Input clusters:
  Basic, Power Configuration, Identify, Diagnostics
  [0, 1, 3, 2821]
 
  Output clusters:
- Identify, On/Off, Level control, Ota, ColorControl
- [3, 6, 8, 25, 768]
+ Identify, Groups, Scene, On/Off, Level control, Ota, Color control
+ [3, 4, 5, 6, 8, 25, 768]
 
  */

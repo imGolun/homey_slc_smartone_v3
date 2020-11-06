@@ -1,7 +1,7 @@
 {
   "actions": [
     {
-      "id": "level_step_with_onoff",
+      "id": "S32055_level_step_with_onoff",
       "title": {
         "en": "Step level (with On/Off)"
       },
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": "level_move_with_onoff",
+      "id": "S32055_level_move_with_onoff",
       "title": {
         "en": "Move level (with On/Off)"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "level_stop_with_onoff",
+      "id": "S32055_level_stop_with_onoff",
       "title": {
         "en": "Stop level (with On/Off)"
       },
@@ -81,7 +81,7 @@
       "args": []
     },
     {
-      "id": "step_color_temperature",
+      "id": "S32055_step_color_temperature",
       "title": {
         "en": "Step color temperature"
       },
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "id": "move_color_temperature",
+      "id": "S32055_move_color_temperature",
       "title": {
         "en": "Move color temperature"
       },
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": "stop_move_step",
+      "id": "S32055_stop_move_step",
       "title": {
         "en": "Stop move step"
       },
@@ -162,7 +162,7 @@
       "args": []
     },
     {
-      "id": "recall_scene",
+      "id": "S32055_recall_scene",
       "title": {
         "en": "Recall scene"
       },
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": "store_scene",
+      "id": "S32055_store_scene",
       "title": {
         "en": "Store scene"
       },

@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#202123",
@@ -42,7 +42,7 @@
   "flow": {
     "actions": [
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG9101SAC_HP_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -89,7 +89,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG9101SAC_HP_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -124,7 +124,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG9101SAC_HP_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -138,7 +138,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG9101SAC_HP_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -165,7 +165,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG9101SAC_HP_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -192,7 +192,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG_CCT_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -239,7 +239,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG_CCT_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -274,7 +274,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG_CCT_LIGHT_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -288,7 +288,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "ZG_CCT_LIGHT_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -333,7 +333,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZG_CCT_LIGHT_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -368,7 +368,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZG_CCT_LIGHT_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -385,7 +385,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG_CCT_LIGHT_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -412,7 +412,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG_CCT_LIGHT_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -439,7 +439,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG_DIM_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -486,7 +486,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG_DIM_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -521,7 +521,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG_DIM_LIGHT_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -535,7 +535,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG_DIM_LIGHT_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -562,7 +562,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG_DIM_LIGHT_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -589,7 +589,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG_COLOR_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -636,7 +636,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG_COLOR_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -671,7 +671,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG_COLOR_LIGHT_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -685,7 +685,7 @@
         ]
       },
       {
-        "id": "move_hue",
+        "id": "ZG_COLOR_LIGHT_move_hue",
         "title": {
           "en": "Move hue"
         },
@@ -720,7 +720,7 @@
         ]
       },
       {
-        "id": "move_saturation",
+        "id": "ZG_COLOR_LIGHT_move_saturation",
         "title": {
           "en": "Move saturation"
         },
@@ -755,7 +755,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "ZG_COLOR_LIGHT_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -800,7 +800,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZG_COLOR_LIGHT_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -835,7 +835,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZG_COLOR_LIGHT_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -852,7 +852,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG_COLOR_LIGHT_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -879,7 +879,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG_COLOR_LIGHT_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -906,7 +906,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S24018_RGBW_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S24018_RGBW_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -988,7 +988,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S24018_RGBW_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1002,7 +1002,7 @@
         ]
       },
       {
-        "id": "move_hue",
+        "id": "S24018_RGBW_move_hue",
         "title": {
           "en": "Move hue"
         },
@@ -1037,7 +1037,7 @@
         ]
       },
       {
-        "id": "move_saturation",
+        "id": "S24018_RGBW_move_saturation",
         "title": {
           "en": "Move saturation"
         },
@@ -1072,7 +1072,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "S24018_RGBW_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -1117,7 +1117,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "S24018_RGBW_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -1152,7 +1152,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "S24018_RGBW_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -1169,7 +1169,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S24018_RGBW_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -1196,7 +1196,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S24018_RGBW_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -1223,7 +1223,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S24019_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1270,7 +1270,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S24019_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1305,7 +1305,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S24019_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1319,7 +1319,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S24019_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -1346,7 +1346,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S24019_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -1373,7 +1373,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S24020_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1420,7 +1420,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S24020_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1455,7 +1455,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S24020_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1469,7 +1469,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S24020_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -1496,7 +1496,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S24020_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -1523,7 +1523,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S24021_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1570,7 +1570,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S24021_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1605,7 +1605,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S24021_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1619,7 +1619,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S24021_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -1646,7 +1646,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S24021_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -1673,7 +1673,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S32053_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1720,7 +1720,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S32053_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1755,7 +1755,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S32053_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1769,7 +1769,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S32053_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -1796,7 +1796,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S32053_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -1823,7 +1823,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S32054_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1870,7 +1870,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S32054_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1905,7 +1905,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S32054_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1919,7 +1919,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S32054_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -1946,7 +1946,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S32054_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -1973,7 +1973,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S32055_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -2020,7 +2020,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S32055_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2055,7 +2055,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S32055_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2069,7 +2069,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "S32055_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -2114,7 +2114,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "S32055_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -2149,7 +2149,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "S32055_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -2166,7 +2166,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S32055_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -2193,7 +2193,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S32055_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -2220,7 +2220,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "S32056_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -2267,7 +2267,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "S32056_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2302,7 +2302,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "S32056_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2316,7 +2316,7 @@
         ]
       },
       {
-        "id": "move_hue",
+        "id": "S32056_move_hue",
         "title": {
           "en": "Move hue"
         },
@@ -2351,7 +2351,7 @@
         ]
       },
       {
-        "id": "move_saturation",
+        "id": "S32056_move_saturation",
         "title": {
           "en": "Move saturation"
         },
@@ -2386,7 +2386,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "S32056_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -2431,7 +2431,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "S32056_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -2466,7 +2466,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "S32056_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -2483,7 +2483,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "S32056_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -2510,7 +2510,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "S32056_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -2539,7 +2539,7 @@
     ],
     "triggers": [
       {
-        "id": "on",
+        "id": "ZG2833K2_EU07_on",
         "title": {
           "en": "On"
         },
@@ -2552,7 +2552,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2833K2_EU07_off",
         "title": {
           "en": "Off"
         },
@@ -2565,7 +2565,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG2833K2_EU07_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2596,7 +2596,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG2833K2_EU07_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2609,7 +2609,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZG2833K8_EU05_on",
         "title": {
           "en": "On"
         },
@@ -2652,7 +2652,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2833K8_EU05_off",
         "title": {
           "en": "Off"
         },
@@ -2695,7 +2695,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG2833K8_EU05_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2756,7 +2756,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG2833K8_EU05_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2799,7 +2799,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_002_on",
         "title": {
           "en": "On"
         },
@@ -2812,7 +2812,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_002_off",
         "title": {
           "en": "Off"
         },
@@ -2825,7 +2825,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZGRC_KEY_002_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -2864,7 +2864,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_002_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2895,7 +2895,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_002_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2908,7 +2908,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZGRC_KEY_002_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -2939,7 +2939,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZGRC_KEY_002_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -2970,7 +2970,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZGRC_KEY_002_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -2986,7 +2986,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_005_on",
         "title": {
           "en": "On"
         },
@@ -2999,7 +2999,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_005_off",
         "title": {
           "en": "Off"
         },
@@ -3012,7 +3012,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZGRC_KEY_005_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -3051,7 +3051,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_005_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -3082,7 +3082,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_005_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -3095,7 +3095,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZGRC_KEY_005_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -3126,7 +3126,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZGRC_KEY_005_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -3157,7 +3157,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZGRC_KEY_005_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -3173,7 +3173,7 @@
         ]
       },
       {
-        "id": "move_to_color",
+        "id": "ZGRC_KEY_005_move_to_color",
         "title": {
           "en": "Move to color (XY)"
         },
@@ -3212,7 +3212,7 @@
         ]
       },
       {
-        "id": "move_hue",
+        "id": "ZGRC_KEY_005_move_hue",
         "title": {
           "en": "Move hue"
         },
@@ -3243,7 +3243,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_014_on",
         "title": {
           "en": "On"
         },
@@ -3280,7 +3280,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_014_off",
         "title": {
           "en": "Off"
         },
@@ -3317,7 +3317,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZGRC_KEY_014_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -3372,7 +3372,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZGRC_KEY_014_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -3427,7 +3427,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_014_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -3482,7 +3482,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_014_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -3519,7 +3519,686 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZG2819S_RGBW_on",
+        "title": {
+          "en": "On"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_off",
+        "title": {
+          "en": "Off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_move_to_color",
+        "title": {
+          "en": "Move to color (XY)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "color_x",
+            "type": "number",
+            "title": {
+              "en": "Color X"
+            },
+            "example": 0.1
+          },
+          {
+            "name": "color_y",
+            "type": "number",
+            "title": {
+              "en": "Color Y"
+            },
+            "example": 0.1
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID"
+            },
+            "example": 0
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            },
+            "example": 1
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID"
+            },
+            "example": 0
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            },
+            "example": 1
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "mode",
+            "type": "number",
+            "title": {
+              "en": "Mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "step_size",
+            "type": "number",
+            "title": {
+              "en": "Step size"
+            },
+            "example": 0.2
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_move_to_color_temperature",
+        "title": {
+          "en": "Move to color temperature"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "color_temperature",
+            "type": "number",
+            "title": {
+              "en": "Color temperature"
+            },
+            "example": 0
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_move_color_temperature",
+        "title": {
+          "en": "Move color temperature"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_stop_move_step",
+        "title": {
+          "en": "Stop move step"
+        },
+        "hint": {
+          "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZG2819S_RGBW_move_hue",
+        "title": {
+          "en": "Move hue"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S57009"
+          },
+          {
+            "name": "group",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Group 1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Group 2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Group 3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Group 4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2835_on",
         "title": {
           "en": "On"
         },
@@ -3532,7 +4211,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2835_off",
         "title": {
           "en": "Off"
         },
@@ -3545,7 +4224,7 @@
         ]
       },
       {
-        "id": "move_to_level_with_onoff",
+        "id": "ZG2835_move_to_level_with_onoff",
         "title": {
           "en": "Move to level (with On/Off)"
         },
@@ -3576,7 +4255,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZG2835_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -3607,7 +4286,7 @@
         ]
       },
       {
-        "id": "move_to_hue",
+        "id": "ZG2835_move_to_hue",
         "title": {
           "en": "Move to hue"
         },
@@ -4813,6 +5492,115 @@
       "images": {
         "large": "/drivers/S57007/assets/images/large.png",
         "small": "/drivers/S57007/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "S57009",
+      "name": {
+        "en": "S57009"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA",
+          "AAA"
+        ]
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "The Light Group AS",
+          "THE LIGHT GROUP AS",
+          "the light group as"
+        ],
+        "productId": [
+          "ZG2819S-RGBW",
+          "S57009"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              25,
+              768
+            ]
+          },
+          "2": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              25,
+              768
+            ]
+          },
+          "3": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              25,
+              768
+            ]
+          },
+          "4": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              25,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/S57009/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pairing\nStep 1: Remove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 3: Immediately short press \"S1\" button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing.\n\n# Factory Reset Manually\nStep 1: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 2: Immediately short press 5 times \"Prog.\" button continuously, indicator flashes 3 times quickly to indicate successful reset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/S57009/assets/images/large.png",
+        "small": "/drivers/S57009/assets/images/small.png"
       },
       "settings": []
     },
