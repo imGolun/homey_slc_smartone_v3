@@ -25,5 +25,8 @@
   },
   "2.0.7": {
     "en": "1) Support Homey V5.0. 2) Added support for the following devices: S24015, S24021, S32053, S32054, S32055, S32056, S57001, S57003, S57005, S57006, S57007, S57009, S57018."
+  },
+  "2.1.0": {
+    "en": "Added state report for ZigBee Light."
   }
 }
