@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#202123",
@@ -4725,7 +4725,9 @@
       "class": "light",
       "capabilities": [
         "onoff",
-        "dim"
+        "dim",
+        "measure_power",
+        "meter_power"
       ],
       "capabilitiesOptions": {
         "dim": {
@@ -4735,6 +4737,9 @@
         },
         "onoff": {
           "setOnDim": false
+        },
+        "measure_power": {
+          "approximated": true
         }
       },
       "zigbee": {
@@ -4755,12 +4760,16 @@
               5,
               6,
               8,
+              1794,
+              2820,
               2821,
               4096
             ],
             "bindings": [
               6,
               8,
+              1794,
+              2820,
               25
             ]
           }

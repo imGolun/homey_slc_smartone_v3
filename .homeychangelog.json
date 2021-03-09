@@ -28,5 +28,8 @@
   },
   "2.1.0": {
     "en": "Added state report for ZigBee Light."
+  },
+  "2.1.1": {
+    "en": "Added measure power, meter power for S24019."
   }
 }
