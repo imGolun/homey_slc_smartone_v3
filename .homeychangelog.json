@@ -31,5 +31,8 @@
   },
   "2.1.1": {
     "en": "Added measure power, meter power for S24019."
+  },
+  "2.1.2": {
+    "en": "Fix an issue that S24019 does not work after the update."
   }
 }
