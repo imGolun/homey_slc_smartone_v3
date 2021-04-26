@@ -34,5 +34,8 @@
   },
   "2.1.2": {
     "en": "Fix an issue that S24019 does not work after the update."
+  },
+  "2.1.3": {
+    "en": "Make pairing your device faster."
   }
 }
