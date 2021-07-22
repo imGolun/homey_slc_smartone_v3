@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#202123",
@@ -1655,6 +1655,553 @@
             "type": "device",
             "name": "device",
             "filter": "driver_id=S24021"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32050_level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32050"
+          },
+          {
+            "name": "mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "step_size",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0,
+            "title": {
+              "en": "Step size"
+            }
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "min": 0,
+            "max": 6553,
+            "step": 1,
+            "title": {
+              "en": "Transition time, range { 0 ~ 6553 } seconds."
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32050_level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32050"
+          },
+          {
+            "name": "move_mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "rate",
+            "title": "Rate",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      },
+      {
+        "id": "S32050_level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32050"
+          }
+        ]
+      },
+      {
+        "id": "S32050_recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32050"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32050_store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32050"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32051_level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32051"
+          },
+          {
+            "name": "mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "step_size",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0,
+            "title": {
+              "en": "Step size"
+            }
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "min": 0,
+            "max": 6553,
+            "step": 1,
+            "title": {
+              "en": "Transition time, range { 0 ~ 6553 } seconds."
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32051_level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32051"
+          },
+          {
+            "name": "move_mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "rate",
+            "title": "Rate",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      },
+      {
+        "id": "S32051_level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32051"
+          }
+        ]
+      },
+      {
+        "id": "S32051_recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32051"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32051_store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32051"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32052_level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          },
+          {
+            "name": "mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "step_size",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0,
+            "title": {
+              "en": "Step size"
+            }
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "min": 0,
+            "max": 6553,
+            "step": 1,
+            "title": {
+              "en": "Transition time, range { 0 ~ 6553 } seconds."
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32052_level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          },
+          {
+            "name": "move_mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "rate",
+            "title": "Rate",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      },
+      {
+        "id": "S32052_level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          }
+        ]
+      },
+      {
+        "id": "S32052_step_color_temperature",
+        "title": {
+          "en": "Step color temperature"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          },
+          {
+            "name": "step_mode",
+            "type": "number",
+            "min": 1,
+            "max": 3,
+            "step": 1,
+            "title": {
+              "en": "Step mode, { 1 } means up, { 3 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "step_size",
+            "title": "Step size",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "min": 0,
+            "max": 6553,
+            "step": 1,
+            "title": {
+              "en": "Transition time, range { 0 ~ 6553 } seconds."
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32052_move_color_temperature",
+        "title": {
+          "en": "Move color temperature"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          },
+          {
+            "name": "move_mode",
+            "type": "number",
+            "min": 0,
+            "max": 3,
+            "step": 1,
+            "title": {
+              "en": "Move mode, { 0 } means stop, { 1 } means up, { 3 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "rate",
+            "title": "Rate",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      },
+      {
+        "id": "S32052_stop_move_step",
+        "title": {
+          "en": "Stop move step"
+        },
+        "hint": {
+          "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          }
+        ]
+      },
+      {
+        "id": "S32052_recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "S32052_store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=S32052"
           },
           {
             "name": "group_id",
@@ -4895,6 +5442,193 @@
       "images": {
         "large": "/drivers/S24021/assets/images/large.png",
         "small": "/drivers/S24021/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "S32050",
+      "name": {
+        "en": "S32050"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "The Light Group AS",
+          "THE LIGHT GROUP AS",
+          "the light group as"
+        ],
+        "productId": [
+          "S32050"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              2821,
+              4096
+            ],
+            "bindings": [
+              6,
+              8
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/S32050/assets/learnmode.svg",
+          "instruction": {
+            "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/S32050/assets/images/large.png",
+        "small": "/drivers/S32050/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "S32051",
+      "name": {
+        "en": "S32051"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "The Light Group AS",
+          "THE LIGHT GROUP AS",
+          "the light group as"
+        ],
+        "productId": [
+          "S32051"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              2821,
+              4096
+            ],
+            "bindings": [
+              6,
+              8
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/S32051/assets/learnmode.svg",
+          "instruction": {
+            "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/S32051/assets/images/large.png",
+        "small": "/drivers/S32051/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "S32052",
+      "name": {
+        "en": "S32052"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "light_temperature": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "The Light Group AS",
+          "THE LIGHT GROUP AS",
+          "the light group as"
+        ],
+        "productId": [
+          "S32052"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              2821,
+              4096
+            ],
+            "bindings": [
+              6,
+              8
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/S32052/assets/learnmode.svg",
+          "instruction": {
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/S32052/assets/images/large.png",
+        "small": "/drivers/S32052/assets/images/small.png"
       },
       "settings": []
     },
