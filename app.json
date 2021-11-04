@@ -3,6 +3,10 @@
   "version": "2.1.4",
   "compatibility": ">=5.0.0",
   "sdk": 3,
+  "platforms": [
+    "local",
+    "cloud"
+  ],
   "brandColor": "#202123",
   "name": {
     "en": "SLC SmartOne"
@@ -45,6 +49,9 @@
         "id": "ZG9101SAC_HP_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]] , size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -92,6 +99,9 @@
         "id": "ZG9101SAC_HP_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -142,6 +152,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -169,6 +182,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -195,6 +211,9 @@
         "id": "ZG_CCT_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -242,6 +261,9 @@
         "id": "ZG_CCT_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -292,6 +314,9 @@
         "title": {
           "en": "Step color temperature"
         },
+        "titleFormatted": {
+          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
+        },
         "duration": false,
         "args": [
           {
@@ -336,6 +361,9 @@
         "id": "ZG_CCT_LIGHT_move_color_temperature",
         "title": {
           "en": "Move color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -389,6 +417,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -416,6 +447,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -442,6 +476,9 @@
         "id": "ZG_DIM_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -489,6 +526,9 @@
         "id": "ZG_DIM_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -539,6 +579,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -566,6 +609,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -592,6 +638,9 @@
         "id": "ZG_COLOR_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -639,6 +688,9 @@
         "id": "ZG_COLOR_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -689,6 +741,9 @@
         "title": {
           "en": "Move hue"
         },
+        "titleFormatted": {
+          "en": "Move hue [[move_mode]], rate [[rate]]"
+        },
         "duration": false,
         "args": [
           {
@@ -724,6 +779,9 @@
         "title": {
           "en": "Move saturation"
         },
+        "titleFormatted": {
+          "en": "Move saturation [[move_mode]], rate [[rate]]"
+        },
         "duration": false,
         "args": [
           {
@@ -758,6 +816,9 @@
         "id": "ZG_COLOR_LIGHT_step_color_temperature",
         "title": {
           "en": "Step color temperature"
+        },
+        "titleFormatted": {
+          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -803,6 +864,9 @@
         "id": "ZG_COLOR_LIGHT_move_color_temperature",
         "title": {
           "en": "Move color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -856,6 +920,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -883,6 +950,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -909,6 +979,9 @@
         "id": "S24018_RGBW_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -956,6 +1029,9 @@
         "id": "S24018_RGBW_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1006,6 +1082,9 @@
         "title": {
           "en": "Move hue"
         },
+        "titleFormatted": {
+          "en": "Move hue [[move_mode]], rate [[rate]]"
+        },
         "duration": false,
         "args": [
           {
@@ -1041,6 +1120,9 @@
         "title": {
           "en": "Move saturation"
         },
+        "titleFormatted": {
+          "en": "Move saturation [[move_mode]], rate [[rate]]"
+        },
         "duration": false,
         "args": [
           {
@@ -1075,6 +1157,9 @@
         "id": "S24018_RGBW_step_color_temperature",
         "title": {
           "en": "Step color temperature"
+        },
+        "titleFormatted": {
+          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -1120,6 +1205,9 @@
         "id": "S24018_RGBW_move_color_temperature",
         "title": {
           "en": "Move color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1173,6 +1261,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1200,6 +1291,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1226,6 +1320,9 @@
         "id": "S24019_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -1273,6 +1370,9 @@
         "id": "S24019_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1323,6 +1423,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1350,6 +1453,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1376,6 +1482,9 @@
         "id": "S24020_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -1423,6 +1532,9 @@
         "id": "S24020_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1473,6 +1585,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1500,6 +1615,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1526,6 +1644,9 @@
         "id": "S24021_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -1573,6 +1694,9 @@
         "id": "S24021_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1623,6 +1747,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1650,6 +1777,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1676,6 +1806,9 @@
         "id": "S32050_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -1723,6 +1856,9 @@
         "id": "S32050_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1773,6 +1909,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1800,6 +1939,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1826,6 +1968,9 @@
         "id": "S32051_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -1873,6 +2018,9 @@
         "id": "S32051_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -1923,6 +2071,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1950,6 +2101,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -1976,6 +2130,9 @@
         "id": "S32052_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -2023,6 +2180,9 @@
         "id": "S32052_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2073,6 +2233,9 @@
         "title": {
           "en": "Step color temperature"
         },
+        "titleFormatted": {
+          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
+        },
         "duration": false,
         "args": [
           {
@@ -2117,6 +2280,9 @@
         "id": "S32052_move_color_temperature",
         "title": {
           "en": "Move color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2170,6 +2336,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2197,6 +2366,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2223,6 +2395,9 @@
         "id": "S32053_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -2270,6 +2445,9 @@
         "id": "S32053_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2320,6 +2498,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2347,6 +2528,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2373,6 +2557,9 @@
         "id": "S32054_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -2420,6 +2607,9 @@
         "id": "S32054_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2470,6 +2660,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2497,6 +2690,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2523,6 +2719,9 @@
         "id": "S32055_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -2570,6 +2769,9 @@
         "id": "S32055_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2620,6 +2822,9 @@
         "title": {
           "en": "Step color temperature"
         },
+        "titleFormatted": {
+          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
+        },
         "duration": false,
         "args": [
           {
@@ -2664,6 +2869,9 @@
         "id": "S32055_move_color_temperature",
         "title": {
           "en": "Move color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2717,6 +2925,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2744,6 +2955,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -2770,6 +2984,9 @@
         "id": "S32056_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -2817,6 +3034,9 @@
         "id": "S32056_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
+        },
+        "titleFormatted": {
+          "en": "Move level [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -2867,6 +3087,9 @@
         "title": {
           "en": "Move hue"
         },
+        "titleFormatted": {
+          "en": "Move hue [[move_mode]], rate [[rate]]"
+        },
         "duration": false,
         "args": [
           {
@@ -2902,6 +3125,9 @@
         "title": {
           "en": "Move saturation"
         },
+        "titleFormatted": {
+          "en": "Move saturation [[move_mode]], rate [[rate]]"
+        },
         "duration": false,
         "args": [
           {
@@ -2936,6 +3162,9 @@
         "id": "S32056_step_color_temperature",
         "title": {
           "en": "Step color temperature"
+        },
+        "titleFormatted": {
+          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
         },
         "duration": false,
         "args": [
@@ -2981,6 +3210,9 @@
         "id": "S32056_move_color_temperature",
         "title": {
           "en": "Move color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature [[move_mode]], rate [[rate]]"
         },
         "duration": false,
         "args": [
@@ -3034,6 +3266,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group_id]] recall scene [[scene_id]]"
+        },
         "args": [
           {
             "type": "device",
@@ -3060,6 +3295,9 @@
         "id": "S32056_store_scene",
         "title": {
           "en": "Store scene"
+        },
+        "titleFormatted": {
+          "en": "Group [[group_id]] store scene [[scene_id]]"
         },
         "args": [
           {
@@ -3160,6 +3398,9 @@
         "title": {
           "en": "On"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] on"
+        },
         "args": [
           {
             "type": "device",
@@ -3169,6 +3410,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3203,6 +3447,9 @@
         "title": {
           "en": "Off"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] off"
+        },
         "args": [
           {
             "type": "device",
@@ -3212,6 +3459,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3246,6 +3496,9 @@
         "title": {
           "en": "Move level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move level"
+        },
         "args": [
           {
             "type": "device",
@@ -3255,6 +3508,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3307,6 +3563,9 @@
         "title": {
           "en": "Stop level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] stop level"
+        },
         "args": [
           {
             "type": "device",
@@ -3316,6 +3575,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3794,6 +4056,9 @@
         "title": {
           "en": "On"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] on"
+        },
         "args": [
           {
             "type": "device",
@@ -3803,6 +4068,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3831,6 +4099,9 @@
         "title": {
           "en": "Off"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] off"
+        },
         "args": [
           {
             "type": "device",
@@ -3840,6 +4111,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3868,6 +4142,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] recall scene"
+        },
         "args": [
           {
             "type": "device",
@@ -3877,6 +4154,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3923,6 +4203,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] store scene"
+        },
         "args": [
           {
             "type": "device",
@@ -3932,6 +4215,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -3978,6 +4264,9 @@
         "title": {
           "en": "Move level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move level"
+        },
         "args": [
           {
             "type": "device",
@@ -3987,6 +4276,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4033,6 +4325,9 @@
         "title": {
           "en": "Stop level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] stop level"
+        },
         "args": [
           {
             "type": "device",
@@ -4042,6 +4337,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4070,6 +4368,9 @@
         "title": {
           "en": "On"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] on"
+        },
         "args": [
           {
             "type": "device",
@@ -4079,6 +4380,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4113,6 +4417,9 @@
         "title": {
           "en": "Off"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] off"
+        },
         "args": [
           {
             "type": "device",
@@ -4122,6 +4429,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4156,6 +4466,9 @@
         "title": {
           "en": "Move to color (XY)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move to color"
+        },
         "args": [
           {
             "type": "device",
@@ -4165,6 +4478,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4225,6 +4541,9 @@
         "title": {
           "en": "Recall scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] recall scene"
+        },
         "args": [
           {
             "type": "device",
@@ -4234,6 +4553,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4286,6 +4608,9 @@
         "title": {
           "en": "Store scene"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] store scene"
+        },
         "args": [
           {
             "type": "device",
@@ -4295,6 +4620,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4347,6 +4675,9 @@
         "title": {
           "en": "Step level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] step level"
+        },
         "args": [
           {
             "type": "device",
@@ -4356,6 +4687,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4416,6 +4750,9 @@
         "title": {
           "en": "Move level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move level"
+        },
         "args": [
           {
             "type": "device",
@@ -4425,6 +4762,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4477,6 +4817,9 @@
         "title": {
           "en": "Stop level (with On/Off)"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] stop level"
+        },
         "args": [
           {
             "type": "device",
@@ -4486,6 +4829,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4520,6 +4866,9 @@
         "title": {
           "en": "Move to color temperature"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move to color temperature"
+        },
         "args": [
           {
             "type": "device",
@@ -4529,6 +4878,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4581,6 +4933,9 @@
         "title": {
           "en": "Move color temperature"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move color temperature"
+        },
         "args": [
           {
             "type": "device",
@@ -4590,6 +4945,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4642,6 +5000,9 @@
         "title": {
           "en": "Stop move step"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] stop move step"
+        },
         "hint": {
           "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
         },
@@ -4654,6 +5015,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4688,6 +5052,9 @@
         "title": {
           "en": "Move hue"
         },
+        "titleFormatted": {
+          "en": "Group [[group]] move hue"
+        },
         "args": [
           {
             "type": "device",
@@ -4697,6 +5064,9 @@
           {
             "name": "group",
             "type": "dropdown",
+            "title": {
+              "en": "Group"
+            },
             "values": [
               {
                 "id": "1",
@@ -4878,6 +5248,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -4929,6 +5306,13 @@
         "onoff"
       ],
       "capabilitiesOptions": {},
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -4994,6 +5378,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5056,6 +5447,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5136,6 +5534,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5217,6 +5622,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5283,6 +5695,13 @@
           "approximated": true
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5345,6 +5764,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5405,6 +5831,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5465,6 +5898,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5525,6 +5965,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5591,6 +6038,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5652,6 +6106,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5712,6 +6173,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5777,6 +6245,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5857,6 +6332,13 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5912,6 +6394,13 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -5960,6 +6449,13 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -6035,6 +6531,13 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -6084,6 +6587,13 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -6133,6 +6643,13 @@
           "CR2032"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -6202,6 +6719,13 @@
           "AAA"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
@@ -6277,6 +6801,13 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",

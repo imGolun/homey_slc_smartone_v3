@@ -23,6 +23,8 @@
       "approximated": true
     }
   },
+  "platforms": ["local", "cloud"],
+  "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": [
       "The Light Group AS",
