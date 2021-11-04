@@ -40,5 +40,8 @@
   },
   "2.1.4": {
     "en": "Add support for S32050, S32051, S32052"
+  },
+  "2.2.0": {
+    "en": "Add support for Homey Cloud."
   }
 }
