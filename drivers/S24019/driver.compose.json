@@ -23,7 +23,7 @@
       "approximated": true
     }
   },
-  "platforms": ["local", "cloud"],
+  "platforms": ["local"],
   "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": [
@@ -37,20 +37,16 @@
     "endpoints": {
       "1": {
         "clusters": [
-          0,
-          3,
-          4,
-          5,
           6,
           8,
           1794,
-          2820,
-          2821,
-          4096
+          2820
         ],
         "bindings": [
           6,
-          8
+          8,
+          1794,
+          2820
         ]
       }
     },

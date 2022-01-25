@@ -43,5 +43,11 @@
   },
   "2.2.0": {
     "en": "Add support for Homey Cloud."
+  },
+  "2.2.2": {
+    "en": "Bug fixes and improvements."
+  },
+  "2.2.3": {
+    "en": "Bug fixes and improvements."
   }
 }

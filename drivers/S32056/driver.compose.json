@@ -37,7 +37,7 @@
       "setOnDim": false
     }
   },
-  "platforms": ["local", "cloud"],
+  "platforms": ["local"],
   "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": [
@@ -51,15 +51,9 @@
     "endpoints": {
       "1": {
         "clusters": [
-          0,
-          3,
-          4,
-          5,
           6,
           8,
-          768,
-          2821,
-          4096
+          768
         ],
         "bindings": [
           6,
