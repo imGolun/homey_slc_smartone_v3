@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -11,7 +11,7 @@
     "en": "SLC SmartOne"
   },
   "description": {
-    "en": "Adds support for SLC SmartOne ZigBee & Z-Wave devices."
+    "en": "We constantly work on developing more powerful, efficient and cost-effective LED light fixtures."
   },
   "category": [
     "lights"
