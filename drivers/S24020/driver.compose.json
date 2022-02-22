@@ -24,10 +24,12 @@
     "manufacturerName": [
       "The Light Group AS",
       "THE LIGHT GROUP AS",
-      "the light group as"
+      "the light group as",
+      "The light group AS"
     ],
     "productId": [
-      "S24020"
+      "S24020",
+      "S2420"
     ],
     "endpoints": {
       "1": {

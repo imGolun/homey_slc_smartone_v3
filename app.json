@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.slc.smartone",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -5258,7 +5258,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZG9101SAC-HP",
@@ -5309,7 +5310,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ON/OFF",
@@ -5374,7 +5376,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "CCT Lighting",
@@ -5436,7 +5439,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "DIM Lighting",
@@ -5516,7 +5520,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "RGB-CCT",
@@ -5597,7 +5602,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "RGBW Lighting"
@@ -5663,7 +5669,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S24019"
@@ -5727,10 +5734,12 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
-          "S24020"
+          "S24020",
+          "S2420"
         ],
         "endpoints": {
           "1": {
@@ -5787,7 +5796,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S24021"
@@ -5847,7 +5857,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32050"
@@ -5907,7 +5918,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32051"
@@ -5973,7 +5985,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32052"
@@ -6034,7 +6047,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32053"
@@ -6094,7 +6108,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32054"
@@ -6160,7 +6175,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32055"
@@ -6240,7 +6256,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "S32056"
@@ -6295,7 +6312,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZG2833K2_EU07",
@@ -6349,7 +6367,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZG2833K8_EU05",
@@ -6430,7 +6449,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZGRC_KEY_002",
@@ -6485,7 +6505,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZGRC_KEY_005",
@@ -6540,7 +6561,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZGRC_KEY_014",
@@ -6615,7 +6637,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZG2819S-RGBW",
@@ -6696,7 +6719,8 @@
         "manufacturerName": [
           "The Light Group AS",
           "THE LIGHT GROUP AS",
-          "the light group as"
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
           "ZG2835",
