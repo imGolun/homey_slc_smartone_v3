@@ -55,5 +55,8 @@
   },
   "2.2.5": {
     "en": "Added support for S24020."
+  },
+  "2.2.6": {
+    "en": "Support cloud, bug fixes and improvements."
   }
 }

@@ -14,7 +14,7 @@
       "AAA"
     ]
   },
-  "platforms": ["local"],
+  "platforms": ["local", "cloud"],
   "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": [

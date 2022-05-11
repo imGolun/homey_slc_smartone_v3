@@ -1,11 +1,12 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.slc.smartone",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
-    "local"
+    "local",
+    "cloud"
   ],
   "brandColor": "#202123",
   "name": {
@@ -5249,7 +5250,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5301,7 +5303,8 @@
       ],
       "capabilitiesOptions": {},
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5367,7 +5370,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5430,7 +5434,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5511,7 +5516,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5593,7 +5599,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5660,7 +5667,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5725,7 +5733,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5787,7 +5796,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5848,7 +5858,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5909,7 +5920,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -5976,7 +5988,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6038,7 +6051,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6099,7 +6113,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6166,7 +6181,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6247,7 +6263,8 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6303,7 +6320,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6358,7 +6376,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6440,7 +6459,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6496,7 +6516,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6552,7 +6573,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6628,7 +6650,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6710,7 +6733,8 @@
         ]
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
@@ -6768,7 +6792,8 @@
         "my_thermostat_floor_sensor"
       ],
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
         "zigbee"
