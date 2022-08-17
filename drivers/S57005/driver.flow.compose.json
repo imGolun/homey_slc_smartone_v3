@@ -3,21 +3,21 @@
     {
       "id": "ZGRC_KEY_002_on",
       "title": {
-        "en": "On"
+        "en": "Turned on"
       },
       "args": []
     },
     {
       "id": "ZGRC_KEY_002_off",
       "title": {
-        "en": "Off"
+        "en": "Turned off"
       },
       "args": []
     },
     {
       "id": "ZGRC_KEY_002_level_step_with_onoff",
       "title": {
-        "en": "Step level (with On/Off)"
+        "en": "Level stepped"
       },
       "args": [],
       "tokens": [
@@ -26,31 +26,28 @@
           "type": "number",
           "title": {
             "en": "Mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "step_size",
           "type": "number",
           "title": {
             "en": "Step size"
-          },
-          "example": 0.2
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_002_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Level moved"
       },
       "args": [],
       "tokens": [
@@ -59,30 +56,28 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_002_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Level stopped"
       },
       "args": []
     },
     {
       "id": "ZGRC_KEY_002_move_to_color_temperature",
       "title": {
-        "en": "Move to color temperature"
+        "en": "Color temperature moved to"
       },
       "args": [],
       "tokens": [
@@ -91,23 +86,21 @@
           "type": "number",
           "title": {
             "en": "Color temperature"
-          },
-          "example": 0
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_002_move_color_temperature",
       "title": {
-        "en": "Move color temperature"
+        "en": "Color temperature moved"
       },
       "args": [],
       "tokens": [
@@ -116,23 +109,21 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_002_stop_move_step",
       "title": {
-        "en": "Stop move step"
+        "en": "Move step stopped"
       },
       "hint": {
         "en": "The stop move step command is provided to allow Move and Step commands to be stopped."

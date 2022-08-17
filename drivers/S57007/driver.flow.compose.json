@@ -3,7 +3,7 @@
     {
       "id": "ZGRC_KEY_014_on",
       "title": {
-        "en": "On"
+        "en": "Turned on"
       },
       "titleFormatted": {
         "en": "Group [[group]] on"
@@ -41,7 +41,7 @@
     {
       "id": "ZGRC_KEY_014_off",
       "title": {
-        "en": "Off"
+        "en": "Turned off"
       },
       "titleFormatted": {
         "en": "Group [[group]] off"
@@ -79,7 +79,7 @@
     {
       "id": "ZGRC_KEY_014_recall_scene",
       "title": {
-        "en": "Recall scene"
+        "en": "Scene recalled"
       },
       "titleFormatted": {
         "en": "Group [[group]] recall scene"
@@ -119,23 +119,21 @@
           "type": "number",
           "title": {
             "en": "Group ID"
-          },
-          "example": 0
+          }
         },
         {
           "name": "scene_id",
           "type": "number",
           "title": {
             "en": "Scene ID"
-          },
-          "example": 1
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_014_store_scene",
       "title": {
-        "en": "Store scene"
+        "en": "Scene stored"
       },
       "titleFormatted": {
         "en": "Group [[group]] store scene"
@@ -175,23 +173,21 @@
           "type": "number",
           "title": {
             "en": "Group ID"
-          },
-          "example": 0
+          }
         },
         {
           "name": "scene_id",
           "type": "number",
           "title": {
             "en": "Scene ID"
-          },
-          "example": 1
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_014_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Level moved"
       },
       "titleFormatted": {
         "en": "Group [[group]] move level"
@@ -231,23 +227,21 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
     {
       "id": "ZGRC_KEY_014_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Level stopped"
       },
       "titleFormatted": {
         "en": "Group [[group]] stop level"

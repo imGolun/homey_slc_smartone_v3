@@ -3,19 +3,19 @@
     {
       "id": "ZG2833K2_EU07_on",
       "title": {
-        "en": "On"
+        "en": "Turned on"
       }
     },
     {
       "id": "ZG2833K2_EU07_off",
       "title": {
-        "en": "Off"
+        "en": "Turned off"
       }
     },
     {
       "id": "ZG2833K2_EU07_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Level moved"
       },
       "tokens": [
         {
@@ -23,23 +23,21 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
     {
       "id": "ZG2833K2_EU07_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Level stopped"
       }
     }
   ]

@@ -3,21 +3,21 @@
     {
       "id": "ZG2835_on",
       "title": {
-        "en": "On"
+        "en": "Turned on"
       },
       "args": []
     },
     {
       "id": "ZG2835_off",
       "title": {
-        "en": "Off"
+        "en": "Turned off"
       },
       "args": []
     },
     {
       "id": "ZG2835_move_to_level_with_onoff",
       "title": {
-        "en": "Move to level (with On/Off)"
+        "en": "Level moved"
       },
       "args": [],
       "tokens": [
@@ -26,23 +26,21 @@
           "type": "number",
           "title": {
             "en": "Level"
-          },
-          "example": 0
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
     {
       "id": "ZG2835_move_to_color_temperature",
       "title": {
-        "en": "Move to color temperature"
+        "en": "Color temperature moved to"
       },
       "args": [],
       "tokens": [
@@ -51,23 +49,21 @@
           "type": "number",
           "title": {
             "en": "Color temperature"
-          },
-          "example": 0
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
     {
       "id": "ZG2835_move_to_hue",
       "title": {
-        "en": "Move to hue"
+        "en": "Hue moved to"
       },
       "args": [],
       "tokens": [
@@ -76,8 +72,7 @@
           "type": "number",
           "title": {
             "en": "Hue"
-          },
-          "example": 0.00
+          }
         }
       ]
     }

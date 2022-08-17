@@ -1,4 +1,4 @@
-App for supporting SLC SmartOne Zigbee products in Athom Homey.
+App for supporting SLC SmartOne Zigbee products in Homey.
 
 SLC has an extensive range of products for controlling lights.
 

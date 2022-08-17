@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -12,7 +12,7 @@
     "en": "SLC SmartOne"
   },
   "description": {
-    "en": "We constantly work on developing more powerful, efficient and cost-effective LED light fixtures."
+    "en": "Powerful, efficient and cost-effective LED light fixtures."
   },
   "category": [
     "lights"

@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.slc.smartone",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -13,7 +13,7 @@
     "en": "SLC SmartOne"
   },
   "description": {
-    "en": "We constantly work on developing more powerful, efficient and cost-effective LED light fixtures."
+    "en": "Powerful, efficient and cost-effective LED light fixtures."
   },
   "category": [
     "lights"
@@ -3327,7 +3327,7 @@
       {
         "id": "ZG2833K2_EU07_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "args": [
           {
@@ -3340,7 +3340,7 @@
       {
         "id": "ZG2833K2_EU07_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "args": [
           {
@@ -3353,7 +3353,7 @@
       {
         "id": "ZG2833K2_EU07_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Level moved"
         },
         "tokens": [
           {
@@ -3361,16 +3361,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -3384,7 +3382,7 @@
       {
         "id": "ZG2833K2_EU07_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Level stopped"
         },
         "args": [
           {
@@ -3397,7 +3395,7 @@
       {
         "id": "ZG2833K8_EU05_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
           "en": "Group [[group]] on"
@@ -3446,7 +3444,7 @@
       {
         "id": "ZG2833K8_EU05_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
           "en": "Group [[group]] off"
@@ -3495,7 +3493,7 @@
       {
         "id": "ZG2833K8_EU05_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Level moved"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -3546,23 +3544,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG2833K8_EU05_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Level stopped"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -3611,7 +3607,7 @@
       {
         "id": "ZGRC_KEY_002_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "args": [
           {
@@ -3624,7 +3620,7 @@
       {
         "id": "ZGRC_KEY_002_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "args": [
           {
@@ -3637,7 +3633,7 @@
       {
         "id": "ZGRC_KEY_002_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Level stepped"
         },
         "args": [
           {
@@ -3652,31 +3648,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_002_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Level moved"
         },
         "args": [
           {
@@ -3691,23 +3684,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_002_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Level stopped"
         },
         "args": [
           {
@@ -3720,7 +3711,7 @@
       {
         "id": "ZGRC_KEY_002_move_to_color_temperature",
         "title": {
-          "en": "Move to color temperature"
+          "en": "Color temperature moved to"
         },
         "args": [
           {
@@ -3735,23 +3726,21 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_002_move_color_temperature",
         "title": {
-          "en": "Move color temperature"
+          "en": "Color temperature moved"
         },
         "args": [
           {
@@ -3766,23 +3755,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_002_stop_move_step",
         "title": {
-          "en": "Stop move step"
+          "en": "Move step stopped"
         },
         "hint": {
           "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
@@ -3798,7 +3785,7 @@
       {
         "id": "ZGRC_KEY_005_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "args": [
           {
@@ -3811,7 +3798,7 @@
       {
         "id": "ZGRC_KEY_005_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "args": [
           {
@@ -3824,7 +3811,7 @@
       {
         "id": "ZGRC_KEY_005_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Level stepped"
         },
         "args": [
           {
@@ -3839,31 +3826,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Level moved"
         },
         "args": [
           {
@@ -3878,23 +3862,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Level stopped"
         },
         "args": [
           {
@@ -3907,7 +3889,7 @@
       {
         "id": "ZGRC_KEY_005_move_to_color_temperature",
         "title": {
-          "en": "Move to color temperature"
+          "en": "Color temperature moved to"
         },
         "args": [
           {
@@ -3922,23 +3904,21 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_move_color_temperature",
         "title": {
-          "en": "Move color temperature"
+          "en": "Color temperature moved"
         },
         "args": [
           {
@@ -3953,23 +3933,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_stop_move_step",
         "title": {
-          "en": "Stop move step"
+          "en": "Move step stopped"
         },
         "hint": {
           "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
@@ -3985,7 +3963,7 @@
       {
         "id": "ZGRC_KEY_005_move_to_color",
         "title": {
-          "en": "Move to color (XY)"
+          "en": "Color XY moved to"
         },
         "args": [
           {
@@ -4000,31 +3978,28 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_move_hue",
         "title": {
-          "en": "Move hue"
+          "en": "Hue moved"
         },
         "args": [
           {
@@ -4039,23 +4014,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_014_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
           "en": "Group [[group]] on"
@@ -4098,7 +4071,7 @@
       {
         "id": "ZGRC_KEY_014_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
           "en": "Group [[group]] off"
@@ -4141,7 +4114,7 @@
       {
         "id": "ZGRC_KEY_014_recall_scene",
         "title": {
-          "en": "Recall scene"
+          "en": "Scene recalled"
         },
         "titleFormatted": {
           "en": "Group [[group]] recall scene"
@@ -4186,23 +4159,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_014_store_scene",
         "title": {
-          "en": "Store scene"
+          "en": "Scene stored"
         },
         "titleFormatted": {
           "en": "Group [[group]] store scene"
@@ -4247,23 +4218,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_014_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Level moved"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -4308,23 +4277,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_014_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Level stopped"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -4367,7 +4334,7 @@
       {
         "id": "ZG2819S_RGBW_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
           "en": "Group [[group]] on"
@@ -4416,7 +4383,7 @@
       {
         "id": "ZG2819S_RGBW_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
           "en": "Group [[group]] off"
@@ -4465,7 +4432,7 @@
       {
         "id": "ZG2819S_RGBW_move_to_color",
         "title": {
-          "en": "Move to color (XY)"
+          "en": "Color XY moved to"
         },
         "titleFormatted": {
           "en": "Group [[group]] move to color"
@@ -4516,31 +4483,28 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_recall_scene",
         "title": {
-          "en": "Recall scene"
+          "en": "Scene recalled"
         },
         "titleFormatted": {
           "en": "Group [[group]] recall scene"
@@ -4591,23 +4555,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_store_scene",
         "title": {
-          "en": "Store scene"
+          "en": "Scene stored"
         },
         "titleFormatted": {
           "en": "Group [[group]] store scene"
@@ -4658,23 +4620,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Level stepped"
         },
         "titleFormatted": {
           "en": "Group [[group]] step level"
@@ -4725,31 +4685,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Level moved"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -4800,23 +4757,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Level stopped"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -4865,7 +4820,7 @@
       {
         "id": "ZG2819S_RGBW_move_to_color_temperature",
         "title": {
-          "en": "Move to color temperature"
+          "en": "Color temperature moved to"
         },
         "titleFormatted": {
           "en": "Group [[group]] move to color temperature"
@@ -4916,23 +4871,21 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_move_color_temperature",
         "title": {
-          "en": "Move color temperature"
+          "en": "Color temperature moved"
         },
         "titleFormatted": {
           "en": "Group [[group]] move color temperature"
@@ -4983,23 +4936,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_stop_move_step",
         "title": {
-          "en": "Stop move step"
+          "en": "Move step stopped"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop move step"
@@ -5051,7 +5002,7 @@
       {
         "id": "ZG2819S_RGBW_move_hue",
         "title": {
-          "en": "Move hue"
+          "en": "Hue moved"
         },
         "titleFormatted": {
           "en": "Group [[group]] move hue"
@@ -5102,23 +5053,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG2835_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "args": [
           {
@@ -5131,7 +5080,7 @@
       {
         "id": "ZG2835_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "args": [
           {
@@ -5144,7 +5093,7 @@
       {
         "id": "ZG2835_move_to_level_with_onoff",
         "title": {
-          "en": "Move to level (with On/Off)"
+          "en": "Level moved"
         },
         "args": [
           {
@@ -5159,23 +5108,21 @@
             "type": "number",
             "title": {
               "en": "Level"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2835_move_to_color_temperature",
         "title": {
-          "en": "Move to color temperature"
+          "en": "Color temperature moved to"
         },
         "args": [
           {
@@ -5190,23 +5137,21 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2835_move_to_hue",
         "title": {
-          "en": "Move to hue"
+          "en": "Hue moved to"
         },
         "args": [
           {
@@ -5221,8 +5166,7 @@
             "type": "number",
             "title": {
               "en": "Hue"
-            },
-            "example": 0
+            }
           }
         ]
       }
