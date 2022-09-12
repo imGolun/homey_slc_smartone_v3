@@ -40,7 +40,7 @@
     {
       "id": "ZG2835_move_to_color_temperature",
       "title": {
-        "en": "Color temperature moved to"
+        "en": "Color temperature moved"
       },
       "args": [],
       "tokens": [
@@ -63,7 +63,7 @@
     {
       "id": "ZG2835_move_to_hue",
       "title": {
-        "en": "Hue moved to"
+        "en": "Hue moved"
       },
       "args": [],
       "tokens": [

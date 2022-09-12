@@ -45,7 +45,7 @@
     "learnmode": {
       "image": "/drivers/S32050/assets/learnmode.svg",
       "instruction": {
-        "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode."
+        "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode."
       }
     }
   },

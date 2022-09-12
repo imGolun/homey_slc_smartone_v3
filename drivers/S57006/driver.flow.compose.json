@@ -77,7 +77,7 @@
     {
       "id": "ZGRC_KEY_005_move_to_color_temperature",
       "title": {
-        "en": "Color temperature moved to"
+        "en": "Color temperature moved"
       },
       "args": [],
       "tokens": [
@@ -132,7 +132,7 @@
     {
       "id": "ZGRC_KEY_005_move_to_color",
       "title": {
-        "en": "Color XY moved to"
+        "en": "Color XY moved"
       },
       "args": [],
       "tokens": [

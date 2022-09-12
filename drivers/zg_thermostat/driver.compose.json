@@ -49,7 +49,7 @@
     "learnmode": {
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "# Pair\n1) At OFF mode (Off icon), press and hold up and down buttons at the same time for over 5 seconds to enter Settings Menu.\n2) Short press move up and down button to select a settings item, then short press button F to enter selected item.\n3) Select \"Add\", then short press button F.\n\n# Factory Reset\nEnter settings item, select \"Reset\", then short press button F."
+        "en": "Switch to OFF mode, then press and hold up and down buttons at the same time for over 5 seconds to enter Settings Menu. Short press move up and down button to select a settings item, then short press button F to enter selected item. Select Add, then short press button F to put the device into pair mode."
       }
     }
   },

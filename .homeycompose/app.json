@@ -1,6 +1,6 @@
 {
   "id": "com.slc.smartone",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -5280,7 +5280,7 @@
         "learnmode": {
           "image": "/drivers/S24013/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5330,7 +5330,7 @@
         "learnmode": {
           "image": "/drivers/S24015/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5399,7 +5399,7 @@
         "learnmode": {
           "image": "/drivers/S24018_CCT/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5461,7 +5461,7 @@
         "learnmode": {
           "image": "/drivers/S24018_DIM/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5543,7 +5543,7 @@
         "learnmode": {
           "image": "/drivers/S24018_RGBCCT/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5624,7 +5624,7 @@
         "learnmode": {
           "image": "/drivers/S24018_RGBW/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5694,7 +5694,7 @@
         "learnmode": {
           "image": "/drivers/S24019/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5755,7 +5755,7 @@
         "learnmode": {
           "image": "/drivers/S24020/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5816,7 +5816,7 @@
         "learnmode": {
           "image": "/drivers/S24021/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -5877,7 +5877,7 @@
         "learnmode": {
           "image": "/drivers/S32050/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode."
+            "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode."
           }
         }
       },
@@ -5938,7 +5938,7 @@
         "learnmode": {
           "image": "/drivers/S32051/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode."
+            "en": "Quickly press the Prog. button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode."
           }
         }
       },
@@ -6006,7 +6006,7 @@
         "learnmode": {
           "image": "/drivers/S32052/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -6067,7 +6067,7 @@
         "learnmode": {
           "image": "/drivers/S32053/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -6128,7 +6128,7 @@
         "learnmode": {
           "image": "/drivers/S32054/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -6196,7 +6196,7 @@
         "learnmode": {
           "image": "/drivers/S32055/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },
@@ -6277,7 +6277,7 @@
         "learnmode": {
           "image": "/drivers/S32056/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to put the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
           }
         }
       },

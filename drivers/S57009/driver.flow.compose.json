@@ -91,10 +91,10 @@
     {
       "id": "ZG2819S_RGBW_move_to_color",
       "title": {
-        "en": "Color XY moved to"
+        "en": "Color XY moved"
       },
       "titleFormatted": {
-        "en": "Group [[group]] move to color"
+        "en": "Group [[group]] color moved"
       },
       "args": [
         {
@@ -449,10 +449,10 @@
     {
       "id": "ZG2819S_RGBW_move_to_color_temperature",
       "title": {
-        "en": "Color temperature moved to"
+        "en": "Color temperature moved"
       },
       "titleFormatted": {
-        "en": "Group [[group]] move to color temperature"
+        "en": "Group [[group]] color temperature moved"
       },
       "args": [
         {
