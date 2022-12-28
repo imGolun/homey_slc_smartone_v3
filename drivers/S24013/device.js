@@ -18,8 +18,8 @@ class DimLight extends SrZigbeeLight {
     }
     this.log(`levelStepRunListener => `, payload)
     return this.levelControlCluster.stepWithOnOff(payload).then(() => {
-      this.onLevelControlEnd()
-    })
+      this.onLevelControlEnd().catch(this.error)
+    }).catch(this.error)
   }
 
   async levelMoveRunListener (args, state) {
@@ -36,8 +36,8 @@ class DimLight extends SrZigbeeLight {
 
     this.log(`levelStopRunListener => `)
     return this.levelControlCluster.stopWithOnOff().then(() => {
-      this.onLevelControlEnd()
-    })
+      this.onLevelControlEnd().catch(this.error)
+    }).catch(this.error)
   }
 
   async onLevelControlEnd () {
@@ -53,7 +53,7 @@ class DimLight extends SrZigbeeLight {
       currentLevel,
     } = await levelControlCluster.readAttributes(
       'currentLevel',
-    )
+    ).catch(this.error)
 
     this.log('onLevelControlEnd', {
       currentLevel,
@@ -84,7 +84,7 @@ class DimLight extends SrZigbeeLight {
     }
     this.log('recallSceneRunListener => ', payload)
     return this.scenesCluster.srRecallScene(payload).then(() => {
-      this.onEndDeviceAnnounce()
+      this.onEndDeviceAnnounce().catch(this.error)
     }).catch(this.error)
   }
 

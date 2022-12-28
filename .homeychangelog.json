@@ -64,5 +64,8 @@
   },
   "2.2.8": {
     "en": "Bug fixes"
+  },
+  "2.2.9": {
+    "en": "Fixes an issue that the S24013 sometimes crashes."
   }
 }
