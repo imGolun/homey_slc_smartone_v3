@@ -67,5 +67,11 @@
   },
   "2.2.9": {
     "en": "Fixes an issue that the S24013 sometimes crashes."
+  },
+  "2.2.10": {
+    "en": "Add support for S24029, S24030."
+  },
+  "2.2.11": {
+    "en": "Add support for S24029, S24030."
   }
 }

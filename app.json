@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.slc.smartone",
-  "version": "2.2.9",
+  "version": "2.2.11",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -5810,20 +5810,19 @@
         }
       },
       "images": {
-        "small": "./assets/images/small.png",
-        "large": "./assets/images/large.png",
-        "xlarge": "./assets/images/xlarge.png"
+        "small": "/drivers/S24029/assets/images/small.png",
+        "large": "/drivers/S24029/assets/images/large.png",
+        "xlarge": "/drivers/S24029/assets/images/xlarge.png"
       },
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
-          "HZC",
-          "Shyugj"
+          "THE LIGHT GROUP AS",
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
-          "S24029",
-          "Meter-Dimmer-Switch-ZB3.0",
-          "D688-ZG"
+          "S24029"
         ],
         "endpoints": {
           "1": {
@@ -5854,11 +5853,13 @@
         }
       },
       "platforms": [
-        "local"
+        "local",
+        "cloud"
       ],
       "connectivity": [
-        "lan"
-      ]
+        "zigbee"
+      ],
+      "energy": {}
     },
     {
       "id": "S24030",
@@ -5868,12 +5869,12 @@
       "zigbee": {
         "manufacturerName": [
           "The Light Group AS",
-          "Shyugj",
-          "HZC"
+          "THE LIGHT GROUP AS",
+          "the light group as",
+          "The light group AS"
         ],
         "productId": [
-          "S24030",
-          "T5_ZG"
+          "S24030"
         ],
         "endpoints": {
           "1": {
@@ -5918,9 +5919,9 @@
       },
       "class": "thermostat",
       "images": {
-        "small": "./assets/images/small.png",
-        "large": "./assets/images/large.png",
-        "xlarge": "./assets/images/xlarge.png"
+        "small": "/drivers/S24030/assets/images/small.png",
+        "large": "/drivers/S24030/assets/images/large.png",
+        "xlarge": "/drivers/S24030/assets/images/xlarge.png"
       },
       "capabilities": [
         "onoff",
