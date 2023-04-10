@@ -1,12 +1,22 @@
 const { ZigBeeDevice } = require("homey-zigbeedriver");
 const { CLUSTER } = require("zigbee-clusters");
 const HzcSwitch2GangZigBeeDevice = require('../../lib/HzcSwitch2GangZigBeeDevice')
+const HzcDimmerZigBeeDevice = require('../../lib/HzcDimmerZigBeeDevice')
 
-class S24029Device extends HzcSwitch2GangZigBeeDevice {
+class S24029Device extends HzcDimmerZigBeeDevice {
     async onNodeInit({ zclNode }) {
+
+        this.log('++++ init...')
 
         this.app_inited = false
         this.params = {}
+
+        if (!this.hasCapability('onoff')) {
+            await this.addCapability('onoff'); 
+        }
+        if (!this.hasCapability('dim')){
+            await this.addCapability('dim'); 
+        }  
 
         if (!this.hasCapability('measure_power')) {
             await this.addCapability('measure_power')
@@ -14,13 +24,12 @@ class S24029Device extends HzcSwitch2GangZigBeeDevice {
 
         if (this.hasCapability('meter_power')) {
             await this.removeCapability('meter_power')
-        }
+        } 
 
-        this.registerCapability("dim", CLUSTER.LEVEL_CONTROL);
-
-        this.registerSwitchOnoff(1)
+        //way 2
+        this.registerSwitchOnoff()
+        this.registerDim() 
         this.registerMeterPowerMeasurePower(1)
-
         this._init_app()
 
     }

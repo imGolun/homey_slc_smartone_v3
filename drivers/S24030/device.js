@@ -16,14 +16,13 @@ const destructConstProps = function ({
 
 const HzcThermostatCluster = require('../../lib/HzcThermostatCluster')
 const HzcThermostatUserInterfaceConfigurationCluster =
-    require('../../lib/HzcThermostatUserInterfaceConfigurationCluster')
-
+    require('../../lib/HzcThermostatUserInterfaceConfigurationCluster') 
 Cluster.addCluster(HzcThermostatCluster)
-Cluster.addCluster(HzcThermostatUserInterfaceConfigurationCluster)
-
+Cluster.addCluster(HzcThermostatUserInterfaceConfigurationCluster) 
 
 CLUSTER['THERMOSTAT_USER_INTERFACE_CONFIGURATION'] =
-    destructConstProps(HzcThermostatUserInterfaceConfigurationCluster)
+    destructConstProps(HzcThermostatUserInterfaceConfigurationCluster) 
+ 
 
 const getInt16 = function (number) {
     const int16 = new Int16Array(1)
@@ -36,7 +35,9 @@ const {
 } = require('./lib/devices/utils');
 
 
-class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
+class thermostat_t5_zg_thermostat extends ZigBeeDevice {
+
+
 
     onEndDeviceAnnounce() {
     }
@@ -44,7 +45,7 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
     async onNodeInit({ zclNode, node }) {
         super.onNodeInit({ zclNode: zclNode, node: node })
         //this.enableDebug();
-        //this.printNode();    
+        //this.printNode();   
 
         this.isOnline = 0
         this.meter_multiplier = 0.001;
@@ -83,7 +84,7 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
             }).
             catch(err => {
                 //this.error('Error: read sensor mode failed', err);
-                this.log('-------err: ', err)
+                this.log('-------start.err: ', err)
 
                 let errMsg = "" + err
                 if (errMsg === "Error: device_not_found") {
@@ -203,7 +204,8 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
         appkit.child_lock.init(this)
         appkit.frost.init(this)
         appkit.sensor_mode.init(this)
-        appkit.fault.init(this) 
+        appkit.fault.init(this)
+ 
 
         await this._onHandlerReport()
 
@@ -215,12 +217,15 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
 
         //this._getAttributes();   
         this._loopTipInfo()
+
+
+        this.setDatetime()
     }
 
 
     async showMessage(msg) {
-        await this.setWarning(msg).catch(this.error);
-        //await this.unsetWarning();
+        await this.unsetWarning();
+        await this.setWarning(msg).catch(this.error); 
     }
 
     //==========================================================================================
@@ -308,14 +313,14 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
 
 
     setDatetime() {
-
+        let st = parseInt(Date.now() / 1000)
         this.thermostatCluster().writeAttributes({
-            syncTime: Date.now() / 1000,
+            syncTime: st,
         }).then(() => {
-            this.log(`##### set time success`)
+            this.log(`##### set time success: `, st)
         }).catch(err => {
-            this.log(`##### set time error `, err)
-            throw new Error('Synchronization time')
+            this.log(`##### set time error `, st, err)
+            this.showMessage(""+err)
         })
 
     }
@@ -443,7 +448,7 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
                     configureAttributeReporting: {
                         minInterval: 10,
                         maxInterval: 60000,
-                        minChange: 1,
+                        minChange: 0.1,
                     },
                 },
             })
@@ -491,7 +496,7 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
                 payload['occupiedCoolingSetpoint'] = value * 100
             }
 
-            this.thermostatCluster().writeAttributes(payload)
+            this.thermostatCluster().writeAttributes(payload).catch(this.error)
         })
 
     }
@@ -512,7 +517,7 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
                 this.log('--------set mode = ', payload, systemMode)
                 this.setStoreValue('last_system_mode', value);
 
-            })
+            }).catch(this.error)
         })
 
     }
@@ -549,7 +554,11 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
         if (this.thermostatUserInterfaceConfiguration() === null || this.thermostatUserInterfaceConfiguration() === undefined) {
             this.log('&&&&&&&&&&&&& instance is removed')
             return
-        } 
+        }
+
+        //await this.basicCluster().readAttributes('appVersion', 'dateCode', 'hwVersion','appProfileVersion','locationDesc','swBuildId').then(value => {
+        //  this.log('+++++++++++ basic : ', value)
+        //})
 
         //child lock
         await this.thermostatUserInterfaceConfiguration().readAttributes('keypadLockout').then(value => {
@@ -868,22 +877,10 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
             if (modeChanged === true) {
                 //this.log('--------mode changed: ', modeChanged, TIP_CHANGED)
                 this.unsetWarning();
-                this.showMessage(TIP_CHANGED)
+                this.showMessage(TIP_CHANGED) 
 
-                let showCount = this.getStoreValue('mode_changed_show_count') || 0
-                if (showCount % 2 === 0) {
-                    //this.setUnavailable(TIP_CHANGED)
-                }
-                else {
-                    //this.setAvailable();
-                }
-                this.setStoreValue('mode_changed_show_count', showCount + 1)
-
-            } else {
-                this.setStoreValue('mode_changed_show_count', 0)
-
-                await this._getAttributes()
-
+            } else {  
+                await this._getAttributes() 
             }
 
             //this._getLastStatus()
@@ -893,9 +890,7 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
 
 
             //根据获取当前温度参数计数（电源关闭后，无参数返回）
-            this.isOnline += 1
-            //this.log('-------online: ', this.isOnline)
-            //this.setCapabilityValue('onoff', this.isOnline <= 3)
+            this.isOnline += 1 
 
 
         } catch (error) {
@@ -923,4 +918,4 @@ class S24029_thermostat_ZigBeeDevice extends ZigBeeDevice {
 
 
 
-module.exports = S24029_thermostat_ZigBeeDevice;
+module.exports = thermostat_t5_zg_thermostat;

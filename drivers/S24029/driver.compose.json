@@ -1,79 +1,80 @@
 {
-    "id": "S24029",
-    "name": {
-        "en": "S24029"
+  "id": "S24029",
+  "name": {
+    "en": "S24029"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
     },
-    "class": "light",
-    "capabilities": [
-        "onoff",
-        "dim"
-    ],
+    "onoff": {
+      "setOnDim": false
+    },
     "capabilitiesOptions": {
-        "dim": {
-            "opts": {
-                "duration": true
-            }
-        },
-        "onoff": {
-            "setOnDim": false
-        },
-        "capabilitiesOptions": {
-            "measure_power": {
-                "isApproximated": true
-            }
-        },
-        "measure_power": {
-            "approximated": true
-        }
+      "measure_power": {
+        "isApproximated": true
+      }
     },
-    "images": {
-        "small": "./assets/images/small.png",
-        "large": "./assets/images/large.png",
-        "xlarge": "./assets/images/xlarge.png"
-    },
-    "zigbee": {
-        "manufacturerName": [
-            "The Light Group AS", 
-            "HZC",
-            "Shyugj"
-        ],
-        "productId": [
-            "S24029",
-            "Meter-Dimmer-Switch-ZB3.0",
-            "D688-ZG"
-        ],
-        "endpoints": {
-            "1": {
-                "clusters": [
-                    0,
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    8,
-                    1794,
-                    2820
-                ],
-                "bindings": [
-                    6,
-                    8,
-                    1794,
-                    2820
-                ]
-            }
-        },
-        "learnmode": {
-            "instruction": {
-                "en": "To Include, quick press Config Button for two times."
-            }
-        }
-    },
-    "platforms": [
-        "local"
+    "measure_power": {
+      "approximated": true
+    }
+  },
+  "images": {
+    "small": "/drivers/S24029/assets/images/small.png",
+    "large": "/drivers/S24029/assets/images/large.png",
+    "xlarge": "/drivers/S24029/assets/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": [
+        "The Light Group AS",
+        "THE LIGHT GROUP AS",
+        "the light group as",
+        "The light group AS"
     ],
-    "connectivity": [
-        "lan"
-    ]
+    "productId": [
+      "S24029"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          1794,
+          2820
+        ],
+        "bindings": [
+          6,
+          8,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "To Include, quick press Config Button for two times."
+      }
+    }
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "energy": {}
 }

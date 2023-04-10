@@ -30,9 +30,9 @@ module.exports = {
 
       if (device.hasCapability('t7e_zg_thermostat_mode')){
         let cur_thermostat = device.getCapabilityValue('t7e_zg_thermostat_mode');
-        if (cur_thermostat === 'cool'){ 
-          throw new Error('In cooling mode, the regulator heating cannot be switched.')
-         
+        if (cur_thermostat === 'cool'){  
+          await device.setWarning("In cooling mode, the regulator heating cannot be switched.").catch(this.error);
+          return
         }
       } 
 
